@@ -42,7 +42,7 @@
                         <div class="error_top" style="display:none"></div>
                         <div class="row restaurant_payout_create" role="tabpanel">
 
-                            <div class="restaurant_payout_create-inner tab-content">
+                            <div class="restaurant_payout_create-inner tab-content"> 
                                 <div role="tabpanel" class="tab-pane active" id="category_information">
                                     <fieldset>
                                         <legend>Food Promo Code</legend>
@@ -242,15 +242,15 @@
                             </div>
 
                         </div>
-
+                        <div class="form-group col-12 text-center btm-btn">
+                            <button type="submit" class="btn btn-primary save_category_btn"><i class="fa fa-save"></i>
+                                {{trans('lang.save')}} 
+                            </button>
+                            <a href="{!! route('admin.foodpromoCode') !!}" class="btn btn-default"><i class="fa fa-undo"></i>{{trans('lang.cancel')}}</a>
+                        </div>
                     </div>
 
-                    <div class="form-group col-12 text-center btm-btn">
-                        <button type="submit" class="btn btn-primary save_category_btn"><i class="fa fa-save"></i>
-                            {{trans('lang.save')}}
-                        </button>
-                        <a href="{!! route('admin.foodpromoCode') !!}" class="btn btn-default"><i class="fa fa-undo"></i>{{trans('lang.cancel')}}</a>
-                    </div>
+                   
 
                 </div>
             </div>
