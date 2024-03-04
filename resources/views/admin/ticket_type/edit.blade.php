@@ -50,14 +50,14 @@
                         </fieldset>
 
                     </div>
-    
+                
                 </div>
-    
+                <div class="form-group col-12 text-center btm-btn">
+                    <button type="submit" class="btn btn-primary save_attribute_btn"><i class="fa fa-save"></i> {{trans('lang.save')}}</button>
+                    <a href="{!! route('admin.ticket_type') !!}" class="btn btn-default"><i class="fa fa-undo"></i>{{trans('lang.cancel')}}</a>
+                </div>
             </div>
-            <div class="form-group col-12 text-center btm-btn">
-                <button type="submit" class="btn btn-primary save_attribute_btn"><i class="fa fa-save"></i> {{trans('lang.save')}}</button>
-                <a href="{!! route('admin.ticket_type') !!}" class="btn btn-default"><i class="fa fa-undo"></i>{{trans('lang.cancel')}}</a>
-            </div>
+           
         </form>
     </div>
 

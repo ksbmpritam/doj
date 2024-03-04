@@ -252,25 +252,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!--<div class="form-group row width-100">-->
-                                        <!--    <table class="table " id="dynamicAddRemove">  -->
-                                        <!--        <tr>  -->
-                                        <!--            <td class="row d-flex" style="flex-wrap: nowrap">-->
-                                        <!--                <input type="text" name="distance_km[]" placeholder="Enter KM" class="col-sm-5 form-control" />-->
-                                        <!--                <select class="form-control col-sm-3" name="discount_type_km[]">-->
-                                        <!--                    <option value="">select type</option>-->
-                                        <!--                    <option value="percentage" {{ old('discount_type_km') == 'percentage' ? 'selected' : '' }}>Percentage (%)</option>-->
-                                        <!--                    <option value="up_topercentage" {{ old('discount_type_km') == 'up_topercentage' ? 'selected' : '' }}>Up To Percentage (%)</option>-->
-                                        <!--                    <option value="amount" {{ old('discount_type_km') == 'amount' ? 'selected' : '' }}>Amount (₹)</option>-->
-                                        <!--                    <option value="up_to_amount" {{ old('discount_type_km') == 'up_to_amount' ? 'selected' : '' }}>Up To Amount (₹)</option>-->
-                                        <!--                </select>-->
-                                        <!--                <input type="number" name="value[]" placeholder="Enter Value" class="col-sm-3 form-control" />  -->
-                                        <!--                <button type="button" class="btn btn-danger remove-tr col-sm-1"> - </button>-->
-                                        <!--            </td>  -->
-                                        <!--        </tr>  -->
-                                        <!--            <button type="button" name="add" id="add-btn" class="btn btn-sm btn-success col-sm-3">Add New</button>-->
-                                        <!--    </table> -->
-                                        <!--</div>-->
+
                                         
                                         <div class="form-check row width-100">
                                             <input type="checkbox" class="item_publish" name="status" value="1" id="item_publish" {{ old('status') == '1' ? 'checked' : '' }}>

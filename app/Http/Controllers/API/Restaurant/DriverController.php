@@ -114,8 +114,11 @@ class DriverController extends Controller
         }
     
         // Corrected the transformation using a map closure
-        $profile->profile_image = asset('images/driver/profile/' . $profile->profile_image);
-    
+        if(!empty($profile->profile_image)){
+            $profile->profile_image = asset('images/driver/profile/' . $profile->profile_image);
+        }else{
+            $profile->profile_image=asset('images/user.png');
+        }
         return response()->json(['status' => true, 'data' => $profile, 'message' => 'Profile get successfully']);
     }
 

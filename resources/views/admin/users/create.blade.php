@@ -172,11 +172,11 @@
                     </fieldset>
                 </div>
             </div>
-        </div>
-
-        <div class="form-group col-12 text-center btm-btn">
-            <button type="submit" class="btn btn-primary save_category_btn"><i class="fa fa-save"></i>{{trans('lang.save')}}</button>
-            <a href="{!! route('admin.users') !!}" class="btn btn-default"><i class="fa fa-undo"></i>{{ trans('lang.cancel')}}</a>
+            
+            <div class="form-group col-12 text-center btm-btn">
+                <button type="submit" class="btn btn-primary save_category_btn"><i class="fa fa-save"></i>{{trans('lang.save')}}</button>
+                <a href="{!! route('admin.users') !!}" class="btn btn-default"><i class="fa fa-undo"></i>{{ trans('lang.cancel')}}</a>
+            </div>
         </div>
 
     </div>

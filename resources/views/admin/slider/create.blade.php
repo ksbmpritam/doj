@@ -51,7 +51,7 @@
                                             <div class="col-7">
                                                 <select id="type_id" name="type_id" class="form-control">
                                                     @foreach($slide_category as $sc)
-                                                        <option value="{{$sc->id}}" id="order_placed">{{$sc->title}} <sup style="color:red;">*</sup></option>
+                                                    <option value="{{$sc->id}}" id="order_placed">{{$sc->title}} <sup style="color:red;">*</sup></option>
                                                     @endforeach
                                                 </select>
                                                 <div class="form-text text-muted">
@@ -89,18 +89,20 @@
                                 <div role="tabpanel" class="tab-pane" id="review_attributes">
 
                                 </div>
+                                </fieldset>
                             </div>
 
                         </div>
 
+                        <div class="form-group col-12 text-center btm-btn">
+                            <button type="submit" class="btn btn-primary save_category_btn"><i class="fa fa-save"></i>
+                                {{trans('lang.save')}}
+                            </button>
+                            <a href="{!! route('admin.slider') !!}" class="btn btn-default"><i class="fa fa-undo"></i>{{trans('lang.cancel')}}</a>
+                        </div>
                     </div>
 
-                    <div class="form-group col-12 text-center btm-btn">
-                        <button type="submit" class="btn btn-primary save_category_btn"><i class="fa fa-save"></i>
-                            {{trans('lang.save')}}
-                        </button>
-                        <a href="{!! route('admin.slider') !!}" class="btn btn-default"><i class="fa fa-undo"></i>{{trans('lang.cancel')}}</a>
-                    </div>
+
 
                 </div>
             </div>

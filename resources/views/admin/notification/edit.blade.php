@@ -103,19 +103,22 @@
                                     </div>
                                 </fieldset>
                             </div>
-
+                            
+                            <div class="form-group col-12 text-center btm-btn">
+                                <button type="submit" class="btn btn-primary send_message"><i class="fa fa-save"></i> {{
+                                    trans('lang.send')}}
+                                </button>
+                                <a href="{{url('admin/dashboard')}}" class="btn btn-default"><i class="fa fa-undo"></i>{{ trans('lang.cancel')}}</a>
+                            </div>
+                        
                         </div>
-
+                        
+                        
                     </div>
                 </div>
             </div>
         </div>
-        <div class="form-group col-12 text-center btm-btn">
-            <button type="submit" class="btn btn-primary send_message"><i class="fa fa-save"></i> {{
-                trans('lang.send')}}
-            </button>
-            <a href="{{url('admin/dashboard')}}" class="btn btn-default"><i class="fa fa-undo"></i>{{ trans('lang.cancel')}}</a>
-        </div>
+       
     </form>
 </div>
 </div>

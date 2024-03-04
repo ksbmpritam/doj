@@ -49,10 +49,11 @@
                                             {{$cat->promo_code->promo_code ?? 'N/A'}}
                                         </td>
                                         <td>
-                                            {{$cat->restaurant->name}}
+                                           {{ optional($cat->restaurant)->name }}
                                         </td>
                                         <td>
-                                            {{$cat->restaurant->mobile_no}}
+                                            {{ optional($cat->restaurant)->mobile_no }}
+
                                         </td>
                                     
                                         <td>

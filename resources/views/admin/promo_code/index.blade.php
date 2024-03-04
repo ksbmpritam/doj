@@ -78,7 +78,7 @@
                   {{$cat->promo_code}}
                 </td>
                  <td>
-                  {{$cat->promo_code_name}}
+                  {{ optional($cat->restaurant)->name }}
                 </td>
                 <td>
                   <img src="{{ asset('images/promo/' . $cat->image) }}" width="100" height="100" alt="promo Photo">

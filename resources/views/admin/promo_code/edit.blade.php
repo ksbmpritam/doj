@@ -296,10 +296,10 @@
 
                     </div>
                     <div class="form-group col-12 text-center btm-btn">
-                        <button type="submit" class="btn btn-primary "><i
-                                    class="fa fa-save"></i> {{trans('lang.save')}}</button>
-                        <a href="{!! route('admin.promoCode') !!}" class="btn btn-default"><i
-                                    class="fa fa-undo"></i>{{trans('lang.cancel')}}</a>
+                        <button type="submit" class="btn btn-primary ">
+                            <i class="fa fa-save"></i> {{trans('lang.save')}}</button>
+                        <a href="{!! route('admin.promoCode') !!}" class="btn btn-default">
+                            <i class="fa fa-undo"></i>{{trans('lang.cancel')}}</a>
                     </div>
 
                 </div>

@@ -17,9 +17,9 @@
                 </ol>
             </div>
         </div>
-
+        
         <div class="card-body">
-
+                                
             <div id="data-table_processing" class="dataTables_processing panel panel-default" style="display: none;">{{trans('lang.processing')}}</div>
             <div class="error_top" style="display:none"></div>
             <div class="row restaurant_payout_create">
@@ -46,15 +46,16 @@
                             @enderror
                         </div>
                     </fieldset>
-
+                
                 </div>
-
+            
             </div>
-
-        </div>
-        <div class="form-group col-12 text-center btm-btn">
-            <button type="submit" class="btn btn-primary save_attribute_btn"><i class="fa fa-save"></i> {{trans('lang.save')}}</button>
-            <a href="{!! route('admin.slider_category') !!}" class="btn btn-default"><i class="fa fa-undo"></i>{{trans('lang.cancel')}}</a>
+            
+            <div class="form-group col-12 text-center btm-btn">
+                <button type="submit" class="btn btn-primary save_attribute_btn"><i class="fa fa-save"></i> {{trans('lang.save')}}</button>
+                <a href="{!! route('admin.slider_category') !!}" class="btn btn-default"><i class="fa fa-undo"></i>{{trans('lang.cancel')}}</a>
+            </div>
+            
         </div>
 
     </div>
